@@ -6,17 +6,7 @@ The project uses ServiceNow Access Control Lists (ACLs) and server-side scriptin
 
 Architecture:
 
-User
-↓
-ServiceNow Login
-↓
-User Role Verification
-↓
-ACL Evaluation
-↓
-Branch Field Validation
-↓
-Allow / Restrict Record Access
+User -> ServiceNow Login -> User Role Verification -> ACL Evaluation -> Branch Field Validation -> Allow / Restrict Record Access
 
 Main Components:
 
